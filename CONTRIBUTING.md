@@ -1,5 +1,16 @@
 # Contributing to the Linera protocol
 
+💡 **Quick Start Checklist**
+Before making your first contribution, please ensure that:
+- You have discussed your change or feature in a GitHub issue.
+- Your Rust toolchain is up to date (`rustup update`).
+- You can successfully run `cargo test && cargo clippy --all-targets --all-features`.
+- You have formatted your code using `cargo +nightly fmt`.
+- Your commits are clean and descriptive (`git rebase -i` if needed).
+
+This helps maintain a clean commit history and smooth CI verification.
+
+
 ## Issues
 
 We use GitHub issues to track planned improvements, feature requests, and bug reports.
